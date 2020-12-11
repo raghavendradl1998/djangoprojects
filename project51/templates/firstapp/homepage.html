@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html>
+<head>
+		<title>Welcome page</title>
+		<link rel="stylesheet" type="text/css" href="{% static "firstapp/css/homepage.css"%}">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+	  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+           
+<marquee>Home page of Edutech website</marquee>
+
+				<div class="topnav" align="right">
+		  <div class="login-container">
+		    <form action="/action_page.php">
+		      <input type="text" style="border:2px solid Tomato;" placeholder="Username" name="username">		      
+		      <button type="submit" style="background-color:Tomato;">Login</button>
+			</form>
+		  </div>
+		</div> 	
+
+                  <h2>Welcome to Edutech website </h2>
+	<div class="container" align="center">
+	   <div class="jumbotron">
+
+  		  <h1 class="display-4">Knowledge is Power</h1>
+
+					
+			  		<p>This is demo home page of Edutech website</p>
+
+			 		<a class="btn btn-primary btn-lg" href="/stdu/physics/" role="button">PHYSICS</a>&nbsp&nbsp
+					<a class="btn btn-primary btn-lg" href="/stdu/chemistry/" role="button">CHEMISTRY</a>&nbsp&nbsp
+			 		<a class="btn btn-primary btn-lg" href="/stdu/social/" role="button">SOCIAL</a> &nbsp&nbsp		
+
+					<div class="topnav">
+						  <h3>Douts</h3>					 
+						 <div class="search-container">
+						    <form action="https://allthingssocial.com.au/">						    
+						      <input type="text" style="border:2px solid Tomato;" placeholder="Search.." name="search">
+						      <button type="submit" style="background-color:Tomato;">Submit</button>
+						    </form>
+						  </div>
+					</div>
+
+					  <h6 align="left" >Relative URLs</h6>
+					   <p  align="left"><a  href="https://www.physicsgalaxy.com/home">PHYSICS</a></p>
+					   <p  align="left"><a  href="https://www.pinterest.com/pin/92183123595075771/">CHEMISTRY</a></p>
+					   <p align="left"><a href="https://www.pexels.com/search/videos/social%20media/">SOCIAL</a></p>
+		 </div>
+	</div>
+</body>
+</html>
