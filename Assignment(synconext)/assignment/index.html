@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- external css file -->
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Schedule of events</title>
+</head>
+<body>
+  <div class="container">
+    <h1 class="text">FIND A FREE TIME</h1>
+    <form action="">
+      <label for="Date" class="date">Date</label>
+      <span class="star">*</span>
+      <input type="date" name="Date" id="Date" >
+      <label for="Starttime" class="starttime">Start Time</label>
+      <span class="star1">*</span>
+      <input type="time" for="Starttime" id="time">
+      <label for="Duration" class="duration">Duration</label>
+      <span class="star2">*</span>
+      <input type="datetime" for="Duration" id="Duration">
+    </form>
+    <div class="rectangle">
+      <div class="grey"><span class="time1">9:30AM</span></div>
+      <div class="green"><span class="time2">10:30AM</span></div>
+      <div class="grey1"><span class="time3">9:30AM</span></div>
+    </div>
+    <div class="color1"></div>
+    <div class="text1">Busy</div>
+    <div class="color2"></div>
+    <div class="text2">Free</div>
+  </div>
+<!-- java script file -->
+<script src="./javascript/main.js"></script>
+</body>
+</html>
